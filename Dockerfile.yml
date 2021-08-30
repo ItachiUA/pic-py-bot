@@ -1,0 +1,5 @@
+FROM python:3
+WORKDIR .
+RUN pip3 install pytelegrambotapi
+RUN wget https://github.com/ItachiUA/PY-files/raw/main/pic-py-bot.py
+CMD python3 pic-py-bot.py
